@@ -1,4 +1,4 @@
-/*!
+/* /* !
  * Bootstrap v3.3.5 (http://getbootstrap.com)
  * Copyright 2011-2015 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
@@ -1406,13 +1406,13 @@ textarea {
 }
 
 a {
-    color: #337ab7;
+    color:rgb(107, 107, 107);
     text-decoration: none
 }
 
 a:focus,
 a:hover {
-    color: #23527c;
+    color:rgb(107, 107, 107);
     text-decoration: underline
 }
 
@@ -4373,7 +4373,7 @@ tbody.collapse.in {
     cursor: not-allowed;
     background-color: transparent;
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false)
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
 }
 
 .open>.dropdown-menu {
@@ -5124,12 +5124,12 @@ textarea.input-group-sm>.input-group-btn>.btn {
     max-height: 340px
 }
 
-@media (max-device-width:480px) and (orientation:landscape) {
+/* @media (max-device-width:480px) and (orientation:landscape) {
     .navbar-fixed-bottom .navbar-collapse,
     .navbar-fixed-top .navbar-collapse {
         max-height: 200px
     }
-}
+} */
 
 .container-fluid>.navbar-collapse,
 .container-fluid>.navbar-header,
@@ -8074,4 +8074,4 @@ button.close {
     .hidden-print {
         display: none !important
     }
-}
+} 
