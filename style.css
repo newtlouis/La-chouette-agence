@@ -3,8 +3,8 @@ body {
     padding: 0;
     background: #FFF;
     overflow-x: hidden;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+    /* -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; */
 }
 
 a,
@@ -32,9 +32,9 @@ a:hover {
     clear: both;
     background: 50% 50% no-repeat;
     padding: 0 50px;
-    -webkit-background-size: cover;
+    /* -webkit-background-size: cover;
     -moz-background-size: cover;
-    -o-background-size: cover;
+    -o-background-size: cover; */
     background-size: cover;
     position: relative;
 }
@@ -66,9 +66,9 @@ a:hover {
 .bg-tr-edge,
 .bg-br-edge,
 .bg-repeat {
-    -webkit-background-size: auto!important;
+    /* -webkit-background-size: auto!important;
     -moz-background-size: auto!important;
-    -o-background-size: auto!important;
+    -o-background-size: auto!important; */
     background-size: auto!important;
 }
 
@@ -456,7 +456,7 @@ nav .caret {
 .btn-d,
 .btn-d:hover,
 .btn-d:focus {
-    color: #FFF;
+    color: rgb(253, 135, 0);
     background: rgba(0, 0, 0, .3);
 }
 
@@ -578,7 +578,7 @@ a[data-lightbox]:hover img {
 
 .lightbox-caption {
     padding: 20px;
-    color: #FFF;
+    color: rgb(255, 142, 13);
     background: rgba(0, 0, 0, .5);
     position: absolute;
     left: 15px;
@@ -587,7 +587,7 @@ a[data-lightbox]:hover img {
 }
 
 .close-lightbox {
-    color: #FFF;
+    color: rgb(255, 142, 13);
     font-size: 30px;
     position: absolute;
     top: 20px;
@@ -604,7 +604,7 @@ a[data-lightbox]:hover img {
 .next-lightbox:hover,
 .prev-lightbox:hover {
     opacity: 1.0;
-    color: #FFF;
+    color: rgb(255, 142, 13);
 }
 
 .next-lightbox,
@@ -692,7 +692,7 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
+    color: rgb(255, 142, 13);
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -713,7 +713,7 @@ h3 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #333333!important;
+    /* color: #333333!important; */
 }
 
 .med-width-whitespace {
@@ -722,22 +722,22 @@ h3 {
     box-shadow: 0px 0px 0px #000000;
 }
 
-h1 {
+/* h1 {
     color: #333333!important;
-}
+} */
 
-h4 {
+/* h4 {
     color: #333333!important;
-}
+} */
 
 .icons {
     margin-bottom: 14px;
     margin-top: 24px;
 }
 
-.white {
+/* .white {
     color: #FFFFFF!important;
-}
+} */
 .black{
     color: black;
 }
@@ -793,7 +793,7 @@ h4 {
     color: #FFFFFF!important;
 }
 
-.ltc-white {
+.whites {
     color: #FFFFFF!important;
 }
 
